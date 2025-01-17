@@ -203,8 +203,8 @@ namespace ConsoleApp1
 
                     Console.WriteLine("Введите значение t");
                     y = Convert.ToDouble(Console.ReadLine());
-                    H = Math.Sin(Math.Pow(y, 2)) - 2.8 * y + Math.Sqrt(Math.Abs(y));
-                    Console.WriteLine($"H = {H}");
+                    //H = Math.Sin(Math.Pow(y, 2)) - 2.8 * y + Math.Sqrt(Math.Abs(y));
+                    //Console.WriteLine($"H = {H}");
                     MyTaskClass15 myTaskClass15 = new MyTaskClass15(y);
                     myTaskClass15.H();
                     break;
@@ -213,8 +213,8 @@ namespace ConsoleApp1
 
                     Console.WriteLine("Введите значение y");
                     y = Convert.ToDouble(Console.ReadLine());
-                    S = Math.Sqrt(Math.Cos(4* Math.Pow(y, 2))+7.151);
-                    Console.WriteLine($"S = {S}");
+                    //S = Math.Sqrt(Math.Cos(4* Math.Pow(y, 2))+7.151);
+                    //Console.WriteLine($"S = {S}");
                     MyTaskClass16 myTaskClass16 = new MyTaskClass16(y);
                     myTaskClass16.S();
                     break;
@@ -223,8 +223,8 @@ namespace ConsoleApp1
 
                     Console.WriteLine("Введите значение y");
                     y = Convert.ToDouble(Console.ReadLine());
-                    N = 3* Math.Pow(y,2)+ Math.Sqrt(y+1);
-                    Console.WriteLine($"N = {N}");
+                    //N = 3* Math.Pow(y,2)+ Math.Sqrt(y+1);
+                    //Console.WriteLine($"N = {N}");
                     MyTaskClass17 myTaskClass17 = new MyTaskClass17(y);
                     myTaskClass17.N();
                     break;
@@ -234,8 +234,8 @@ namespace ConsoleApp1
 
                     Console.WriteLine("Введите значение y");
                     y = Convert.ToDouble(Console.ReadLine());
-                    Z = 3 * Math.Pow(y, 2) + Math.Sqrt(Math.Pow(y, 3) + 1);
-                    Console.WriteLine($"Z = {Z}");
+                    //Z = 3 * Math.Pow(y, 2) + Math.Sqrt(Math.Pow(y, 3) + 1);
+                    //Console.WriteLine($"Z = {Z}");
                     MyTaskClass18 myTaskClass18 = new MyTaskClass18(y);
                     myTaskClass18.Z();
                     break;
@@ -249,8 +249,8 @@ namespace ConsoleApp1
                     y = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Введите значение g");
                     g = Convert.ToDouble(Console.ReadLine());
-                    P = n * Math.Sqrt(Math.Pow(y,3)+1.09 * g);
-                    Console.WriteLine($"P = {P}");
+                    //P = n * Math.Sqrt(Math.Pow(y,3)+1.09 * g);
+                    //Console.WriteLine($"P = {P}");
                     MyTaskClass19 myTaskClass19 = new MyTaskClass19(n, y, g);
                     myTaskClass19.P();
                     break;
@@ -265,8 +265,8 @@ namespace ConsoleApp1
                     y = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Введите значение x");
                     x = Convert.ToDouble(Console.ReadLine());
-                    U = Math.Pow(e, k+y) + Math.Tan(x*Math.Sqrt(y));
-                    Console.WriteLine($"U = {U}");
+                    //U = Math.Pow(e, k+y) + Math.Tan(x*Math.Sqrt(y));
+                    //Console.WriteLine($"U = {U}");
                     MyTaskClass20 myTaskClass20 = new MyTaskClass20(e, k, y, x);
                     myTaskClass20.U();
                     break;
@@ -280,8 +280,8 @@ namespace ConsoleApp1
                     y = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Введите значение h");
                     h = Convert.ToDouble(Console.ReadLine());
-                    P = Math.Pow(e, y+5.5)+ 9.1* Math.Pow(h,3);
-                    Console.WriteLine($"P = {P}");
+                    //P = Math.Pow(e, y+5.5)+ 9.1* Math.Pow(h,3);
+                    //Console.WriteLine($"P = {P}");
                     MyTaskClass21 myTaskClass21 = new MyTaskClass21(e, y, h);
                     myTaskClass21.P();
                     break;
@@ -295,8 +295,8 @@ namespace ConsoleApp1
                     y = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Введите значение x");
                     x = Convert.ToDouble(Console.ReadLine());
-                    T = Math.Sin(2*u)* Math.Log(2* Math.Pow(y, 2)+ Math.Sqrt(x));
-                    Console.WriteLine($"T = {T}");
+                    //T = Math.Sin(2*u)* Math.Log(2* Math.Pow(y, 2)+ Math.Sqrt(x));
+                    //Console.WriteLine($"T = {T}");
                     MyTaskClass22 myTaskClass22 = new MyTaskClass22(u, y, x);
                     myTaskClass22.T();
                     break;
@@ -310,8 +310,8 @@ namespace ConsoleApp1
                     y = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Введите значение f");
                     f = Convert.ToDouble(Console.ReadLine());
-                    G = Math.Pow(e, 2*y) + Math.Sin(f);
-                    Console.WriteLine($"G = {G}");
+                    //G = Math.Pow(e, 2*y) + Math.Sin(f);
+                    //Console.WriteLine($"G = {G}");
                     MyTaskClass23 myTaskClass23 = new MyTaskClass23(e, y, f);
                     myTaskClass23.G();
                     break;
@@ -321,8 +321,8 @@ namespace ConsoleApp1
 
                     Console.WriteLine("Введите значение y");
                     y = Convert.ToDouble(Console.ReadLine());
-                    F = 2 * Math.Sin(0.214* Math.Pow(y,5)+1);
-                    Console.WriteLine($"F = {F}");
+                    //F = 2 * Math.Sin(0.214* Math.Pow(y,5)+1);
+                    //Console.WriteLine($"F = {F}");
                     MyTaskClass24 myTaskClass24 = new MyTaskClass24(y);
                     myTaskClass24.F();
                     break;
@@ -335,8 +335,8 @@ namespace ConsoleApp1
                     y = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Введите значение f");
                     f = Convert.ToDouble(Console.ReadLine());
-                    G = Math.Pow(e, 2 * y) + Math.Sin(Math.Pow(f,2));
-                    Console.WriteLine($"G = {G}");
+                    //G = Math.Pow(e, 2 * y) + Math.Sin(Math.Pow(f,2));
+                    //Console.WriteLine($"G = {G}");
                     MyTaskClass25 myTaskClass25 = new MyTaskClass25(e, y, f);
                     myTaskClass25.G();
                     break;
@@ -345,8 +345,8 @@ namespace ConsoleApp1
 
                     Console.WriteLine("Введите значение p");
                     p = Convert.ToDouble(Console.ReadLine());
-                    Z = Math.Sin(Math.Pow(Math.Pow(p,2)+0.4),3);
-                    Console.WriteLine($"Z = {Z}");
+                    //Z = Math.Sin(Math.Pow(Math.Pow(p,2)+0.4,3));
+                    //Console.WriteLine($"Z = {Z}");
                     MyTaskClass26 myTaskClass26 = new MyTaskClass26(p);
                     myTaskClass26.Z();
                     break;
@@ -362,8 +362,8 @@ namespace ConsoleApp1
                     y = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Введите значение x");
                     x = Convert.ToDouble(Console.ReadLine());
-                    W = 1.03 * v + Math.Pow(e, 2*y) + Math.Tan(Math.Abs(x));
-                    Console.WriteLine($"W = {W}");
+                    //W = 1.03 * v + Math.Pow(e, 2*y) + Math.Tan(Math.Abs(x));
+                    //Console.WriteLine($"W = {W}");
                     MyTaskClass27 myTaskClass27 = new MyTaskClass27(v, e, y, x);
                     myTaskClass27.W();
                     break;
@@ -376,8 +376,8 @@ namespace ConsoleApp1
                     y = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Введите значение h");
                     h = Convert.ToDouble(Console.ReadLine());
-                    T = Math.Pow(e,y+h)+ Math.Sqrt(Math.Abs(6.4*y));
-                    Console.WriteLine($"T = {T}");
+                    //T = Math.Pow(e,y+h)+ Math.Sqrt(Math.Abs(6.4*y));
+                    //Console.WriteLine($"T = {T}");
                     MyTaskClass28 myTaskClass28 = new MyTaskClass28(e, y, h);
                     myTaskClass28.T();
                     break;
@@ -387,8 +387,8 @@ namespace ConsoleApp1
 
                     Console.WriteLine("Введите значение y");
                     y = Convert.ToDouble(Console.ReadLine());
-                    N = 3*Math.Pow(y, 2) + Math.Sqrt(Math.Abs(y + 1));
-                    Console.WriteLine($"N = {N}");
+                    //N = 3 * Math.Pow(y, 2) + Math.Sqrt(Math.Abs(y + 1));
+                    //Console.WriteLine($"N = {N}");
                     MyTaskClass29 myTaskClass29 = new MyTaskClass29(y);
                     myTaskClass29.N();
                     break;
@@ -401,8 +401,8 @@ namespace ConsoleApp1
                     y = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Введите значение r");
                     r = Convert.ToDouble(Console.ReadLine());
-                    W = Math.Pow(e, y + r) + 7.2*Math.Sin(r);
-                    Console.WriteLine($"W = {W}");
+                    //W = Math.Pow(e, y + r) + 7.2*Math.Sin(r);
+                    //Console.WriteLine($"W = {W}");
                     MyTaskClass30 myTaskClass30 = new MyTaskClass30(e, y, r);
                     myTaskClass30.W();
                     break;
